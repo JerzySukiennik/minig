@@ -1,0 +1,1031 @@
+{"instruction": "Włącz wszystkie światła w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz wszystkie swiatla w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz salon.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz salon.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz salonu.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz salonu.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampy w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal salon.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal salonu.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampę w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampe w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie salon.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie salonu.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światła w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatla w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal salon.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal salonu.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj światła w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj swiatla w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj salon.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj salonu.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść światło w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc swiatlo w salonie.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść salon.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc salon.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść salonu.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc salonu.", "output": "control_room(room=\"salon\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz światło w salonie.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz swiatlo w salonie.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz salon.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz salon.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz salonu.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz salonu.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś światło w salonie.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas swiatlo w salonie.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś salon.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas salon.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś salonu.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas salonu.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście światło w salonie.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie swiatlo w salonie.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście salon.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie salon.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście salonu.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie salonu.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś wszystkie światła w salonie.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas wszystkie swiatla w salonie.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś salon.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas salon.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś salonu.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas salonu.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampy w salonie.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij salon.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij salonu.", "output": "control_room(room=\"salon\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ściemnij światło w salonie na 90%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w salonie na 90%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasność w salonie na 90%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w salonie na 90%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ściemnij światło w salonie na 60%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w salonie na 60%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasność w salonie na 60%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w salonie na 60%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ściemnij światło w salonie na 75%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w salonie na 75%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ustaw jasność w salonie na 75%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w salonie na 75%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ściemnij światło w salonie na 50%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w salonie na 50%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasność w salonie na 50%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w salonie na 50%.", "output": "control_room(room=\"salon\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Włącz wszystkie światła w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz wszystkie swiatla w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal światła w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal swiatla w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie światła w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie swiatla w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal lampy w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj światło w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj swiatlo w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść światła w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc swiatla w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz wszystkie światła w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz wszystkie swiatla w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś lampę w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lampe w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście światło w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie swiatlo w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś lampy w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas lampy w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampy w kuchni.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij kuchnię.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij kuchnie.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij kuchnia.", "output": "control_room(room=\"kuchnia\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Przygaś światło w kuchni na 80%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Przygas swiatlo w kuchni na 80%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ustaw jasność w kuchni na 80%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w kuchni na 80%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ściemnij światło w kuchni na 10%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w kuchni na 10%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ustaw jasność w kuchni na 10%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w kuchni na 10%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Przygaś światło w kuchni na 10%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Przygas swiatlo w kuchni na 10%.", "output": "control_room(room=\"kuchnia\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Włącz lampę w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz lampe w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampę w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampe w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampę w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampe w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światło w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatlo w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj światło w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj swiatlo w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść światło w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc swiatlo w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz światło w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz swiatlo w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś lampy w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lampy w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście lampę w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie lampe w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś lampy w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas lampy w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij światła w łazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij swiatla w lazience.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij łazienkę.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lazienke.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij łazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lazienka.", "output": "control_room(room=\"łazienka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ściemnij światło w łazience na 60%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w lazience na 60%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasność w łazience na 60%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w lazience na 60%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Przygaś światło w łazience na 40%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Przygas swiatlo w lazience na 40%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasność w łazience na 40%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w lazience na 40%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ściemnij światło w łazience na 90%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w lazience na 90%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasność w łazience na 90%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w lazience na 90%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Przygaś światło w łazience na 90%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Przygas swiatlo w lazience na 90%.", "output": "control_room(room=\"łazienka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Włącz lampy w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz lampy w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz wszystkie światła w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz wszystkie swiatla w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz cały dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz caly dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampy w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal wszystkie światła w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal wszystkie swiatla w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal cały dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal caly dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampy w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampy w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampy w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie cały dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie caly dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światła w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatla w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal wszystkie światła w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal wszystkie swiatla w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal cały dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal caly dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj światło w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj swiatlo w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampę w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampe w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj cały dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj caly dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść lampy w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc lampy w domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść wszystkie światła w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc wszystkie swiatla w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść cały dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc caly dom.", "output": "control_room(room=\"dom\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz lampę w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz lampe w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz światła w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz swiatla w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz cały dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz caly dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś światła w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas swiatla w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś lampę w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lampe w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś cały dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas caly dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście lampę w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie lampe w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście lampy w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie lampy w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście cały dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie caly dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś wszystkie światła w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas wszystkie swiatla w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś światło w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas swiatlo w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś cały dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas caly dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij wszystkie światła w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij wszystkie swiatla w domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampę w całym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampe w calym domu.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij cały dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij caly dom.", "output": "control_room(room=\"dom\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ściemnij światło w domu na 30%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w domu na 30%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Ustaw jasność w domu na 30%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w domu na 30%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Przygaś światło w domu na 60%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Przygas swiatlo w domu na 60%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasność w domu na 60%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w domu na 60%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ściemnij światło w domu na 60%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w domu na 60%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ściemnij światło w całym domu na 30%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w calym domu na 30%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Ustaw jasność w całym domu na 30%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w calym domu na 30%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Przygaś światło w całym domu na 40%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Przygas swiatlo w calym domu na 40%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasność w całym domu na 40%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w calym domu na 40%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Przygaś światło w całym domu na 80%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Przygas swiatlo w calym domu na 80%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ustaw jasność w całym domu na 80%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w calym domu na 80%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ściemnij światło w całym domu na 25%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w calym domu na 25%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasność w całym domu na 25%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w calym domu na 25%.", "output": "control_room(room=\"dom\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Włącz lampy na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz lampy na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz światło pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz swiatlo pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz wiate.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal światło na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal swiatlo na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal światła pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal swiatla pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal wiate.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie światła na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie swiatla na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampę pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampe pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wiate.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal lampy na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światła pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatla pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal wiate.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj światła na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj swiatla na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampy pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampy pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj wiate.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść wszystkie światła na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc wszystkie swiatla na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść światło pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc swiatlo pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc wiate.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc wiata.", "output": "control_room(room=\"wiata\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz światło na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz swiatlo na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz lampy pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz lampy pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz wiate.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś światła na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas swiatla na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś lampę pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lampe pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas wiate.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście światło na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie swiatlo na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście wszystkie światła pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie wszystkie swiatla pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie wiate.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś lampę na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas lampe na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś wszystkie światła pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas wszystkie swiatla pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas wiate.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampy na wiacie.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampy pod wiatą.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampy pod wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij wiatę.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij wiate.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij wiata.", "output": "control_room(room=\"wiata\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ściemnij światło na wiacie na 25%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo na wiacie na 25%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasność na wiacie na 25%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na wiacie na 25%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ściemnij światło na wiacie na 10%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo na wiacie na 10%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ustaw jasność na wiacie na 10%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na wiacie na 10%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ściemnij światło na wiacie na 40%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo na wiacie na 40%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasność na wiacie na 40%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na wiacie na 40%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ściemnij światło pod wiatą na 10%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo pod wiata na 10%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ustaw jasność pod wiatą na 10%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ustaw jasnosc pod wiata na 10%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ściemnij światło pod wiatą na 60%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo pod wiata na 60%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasność pod wiatą na 60%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasnosc pod wiata na 60%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ściemnij światło pod wiatą na 30%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo pod wiata na 30%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Ustaw jasność pod wiatą na 30%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Ustaw jasnosc pod wiata na 30%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Ściemnij światło pod wiatą na 70%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=70)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo pod wiata na 70%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=70)", "repeats": 6}
+{"instruction": "Ustaw jasność pod wiatą na 70%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=70)", "repeats": 6}
+{"instruction": "Ustaw jasnosc pod wiata na 70%.", "output": "control_room(room=\"wiata\", service=\"turn_on\", value=70)", "repeats": 6}
+{"instruction": "Włącz światło w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz swiatlo w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz kontener.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz kontener.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampy w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal kontener.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie światła w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie swiatla w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie kontener.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światło w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatlo w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal kontener.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj światła w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj swiatla w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj kontener.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść lampy w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc lampy w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść kontener.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc kontener.", "output": "control_room(room=\"kontener\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz światło w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz swiatlo w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz kontener.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz kontener.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś lampę w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lampe w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś kontener.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas kontener.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście lampy w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie lampy w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście kontener.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie kontener.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś lampy w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas lampy w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś kontener.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas kontener.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij wszystkie światła w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij wszystkie swiatla w kontenerze.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij kontener.", "output": "control_room(room=\"kontener\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Przygaś światło w kontenerze na 40%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Przygas swiatlo w kontenerze na 40%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasność w kontenerze na 40%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w kontenerze na 40%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ściemnij światło w kontenerze na 50%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w kontenerze na 50%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasność w kontenerze na 50%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w kontenerze na 50%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Przygaś światło w kontenerze na 25%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Przygas swiatlo w kontenerze na 25%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasność w kontenerze na 25%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w kontenerze na 25%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Przygaś światło w kontenerze na 10%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Przygas swiatlo w kontenerze na 10%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ustaw jasność w kontenerze na 10%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w kontenerze na 10%.", "output": "control_room(room=\"kontener\", service=\"turn_on\", value=10)", "repeats": 6}
+{"instruction": "Włącz wszystkie światła na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz wszystkie swiatla na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz cypel.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz cypel.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampy na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal cypel.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie światła na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie swiatla na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie cypel.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal wszystkie światła na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal wszystkie swiatla na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal cypel.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampy na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj cypel.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść wszystkie światła na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc wszystkie swiatla na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść cypel.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc cypel.", "output": "control_room(room=\"cypel\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz światło na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz swiatlo na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz cypel.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz cypel.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś lampę na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lampe na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś cypel.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas cypel.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście wszystkie światła na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie wszystkie swiatla na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście cypel.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie cypel.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś lampy na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas lampy na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś cypel.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas cypel.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampę na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampe na cyplu.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij cypel.", "output": "control_room(room=\"cypel\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Przygaś światło na cyplu na 50%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Przygas swiatlo na cyplu na 50%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasność na cyplu na 50%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na cyplu na 50%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Przygaś światło na cyplu na 75%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Przygas swiatlo na cyplu na 75%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ustaw jasność na cyplu na 75%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na cyplu na 75%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Przygaś światło na cyplu na 40%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Przygas swiatlo na cyplu na 40%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasność na cyplu na 40%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na cyplu na 40%.", "output": "control_room(room=\"cypel\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Włącz lampy przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz lampy przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz lampy na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz lampy na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampy przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampy przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal wszystkie światła na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal wszystkie swiatla na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie światła przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie swiatla przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie światło na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie swiatlo na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światło przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatlo przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światło na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatlo na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampy przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampy przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj wszystkie światła na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj wszystkie swiatla na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść wszystkie światła przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc wszystkie swiatla przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść lampy na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc lampy na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz wszystkie światła przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz wszystkie swiatla przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz wszystkie światła na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz wszystkie swiatla na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś światło przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas swiatlo przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś światło na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas swiatlo na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście wszystkie światła przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie wszystkie swiatla przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście światło na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie swiatlo na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś wszystkie światła przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas wszystkie swiatla przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś wszystkie światła na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas wszystkie swiatla na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij wszystkie światła przy kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij wszystkie swiatla przy kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij światła na kanałku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij swiatla na kanalku.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij kanałek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij kanalek.", "output": "control_room(room=\"kanałek\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ściemnij światło przy kanałku na 20%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=20)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo przy kanalku na 20%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=20)", "repeats": 6}
+{"instruction": "Ustaw jasność przy kanałku na 20%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=20)", "repeats": 6}
+{"instruction": "Ustaw jasnosc przy kanalku na 20%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=20)", "repeats": 6}
+{"instruction": "Przygaś światło przy kanałku na 90%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Przygas swiatlo przy kanalku na 90%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasność przy kanałku na 90%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasnosc przy kanalku na 90%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Przygaś światło przy kanałku na 80%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Przygas swiatlo przy kanalku na 80%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ustaw jasność przy kanałku na 80%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ustaw jasnosc przy kanalku na 80%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Przygaś światło na kanałku na 50%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Przygas swiatlo na kanalku na 50%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasność na kanałku na 50%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na kanalku na 50%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ściemnij światło na kanałku na 25%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo na kanalku na 25%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasność na kanałku na 25%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na kanalku na 25%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Przygaś światło na kanałku na 75%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Przygas swiatlo na kanalku na 75%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ustaw jasność na kanałku na 75%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na kanalku na 75%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ściemnij światło na kanałku na 90%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo na kanalku na 90%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasność na kanałku na 90%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na kanalku na 90%.", "output": "control_room(room=\"kanałek\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Włącz światła na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz swiatla na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampę na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampe na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampę na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampe na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal lampy na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampę na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampe na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść światło na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc swiatlo na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz wszystkie światła na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz wszystkie swiatla na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś lampy na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lampy na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście światło na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie swiatlo na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś wszystkie światła na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas wszystkie swiatla na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampy na latarniach.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij latarnie.", "output": "control_room(room=\"latarnie\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ściemnij światło na latarniach na 25%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo na latarniach na 25%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasność na latarniach na 25%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na latarniach na 25%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Przygaś światło na latarniach na 50%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Przygas swiatlo na latarniach na 50%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasność na latarniach na 50%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na latarniach na 50%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=50)", "repeats": 6}
+{"instruction": "Ściemnij światło na latarniach na 90%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo na latarniach na 90%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasność na latarniach na 90%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na latarniach na 90%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Przygaś światło na latarniach na 30%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Przygas swiatlo na latarniach na 30%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Ustaw jasność na latarniach na 30%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Ustaw jasnosc na latarniach na 30%.", "output": "control_room(room=\"latarnie\", service=\"turn_on\", value=30)", "repeats": 6}
+{"instruction": "Włącz światło w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz swiatlo w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz lampy przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz lampy przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz domki.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz domki.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal światło w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal swiatlo w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampę przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampe przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal domki.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie światła w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie swiatla w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie światła przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie wszystkie swiatla przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie domki.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światła w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatla w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światło przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatlo przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal domki.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampę w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampe w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj wszystkie światła przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj wszystkie swiatla przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj domki.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść lampy w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc lampy w domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść światło przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc swiatlo przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść domki.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc domki.", "output": "control_room(room=\"domki\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz lampy w domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz lampy w domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz światła przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz swiatla przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz domki.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz domki.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś światła w domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas swiatla w domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś lampę przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas lampe przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś domki.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas domki.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście wszystkie światła w domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie wszystkie swiatla w domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście wszystkie światła przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie wszystkie swiatla przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście domki.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie domki.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś światło w domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas swiatlo w domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś lampę przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas lampe przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś domki.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas domki.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampy w domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij światła przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij swiatla przy domkach.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij domki.", "output": "control_room(room=\"domki\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Przygaś światło w domkach na 25%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Przygas swiatlo w domkach na 25%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasność w domkach na 25%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w domkach na 25%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Ściemnij światło w domkach na 25%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo w domkach na 25%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=25)", "repeats": 6}
+{"instruction": "Przygaś światło w domkach na 20%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=20)", "repeats": 6}
+{"instruction": "Przygas swiatlo w domkach na 20%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=20)", "repeats": 6}
+{"instruction": "Ustaw jasność w domkach na 20%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=20)", "repeats": 6}
+{"instruction": "Ustaw jasnosc w domkach na 20%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=20)", "repeats": 6}
+{"instruction": "Przygaś światło przy domkach na 75%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Przygas swiatlo przy domkach na 75%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ustaw jasność przy domkach na 75%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ustaw jasnosc przy domkach na 75%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ściemnij światło przy domkach na 75%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo przy domkach na 75%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=75)", "repeats": 6}
+{"instruction": "Ściemnij światło przy domkach na 80%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo przy domkach na 80%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ustaw jasność przy domkach na 80%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Ustaw jasnosc przy domkach na 80%.", "output": "control_room(room=\"domki\", service=\"turn_on\", value=80)", "repeats": 6}
+{"instruction": "Włącz światło przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz swiatlo przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Włącz drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wlacz drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampę przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal lampe przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapal drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampę przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie lampe przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Zapalcie drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal światła przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal swiatla przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Odpal drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampę przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj lampe przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Daj drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść lampę przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc lampe przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Puść drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Pusc drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_on\")", "repeats": 6}
+{"instruction": "Wyłącz lampę przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz lampe przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wyłącz drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wylacz drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś wszystkie światła przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas wszystkie swiatla przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaś drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgas drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście wszystkie światła przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie wszystkie swiatla przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgaście drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Zgascie drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś lampy przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas lampy przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygaś drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Wygas drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij lampy przy drukarce.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij drukarkę.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij drukarke.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ubij drukarka.", "output": "control_room(room=\"drukarka\", service=\"turn_off\")", "repeats": 6}
+{"instruction": "Ściemnij światło przy drukarce na 90%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Sciemnij swiatlo przy drukarce na 90%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasność przy drukarce na 90%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Ustaw jasnosc przy drukarce na 90%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=90)", "repeats": 6}
+{"instruction": "Przygaś światło przy drukarce na 40%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Przygas swiatlo przy drukarce na 40%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasność przy drukarce na 40%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Ustaw jasnosc przy drukarce na 40%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=40)", "repeats": 6}
+{"instruction": "Przygaś światło przy drukarce na 60%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Przygas swiatlo przy drukarce na 60%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasność przy drukarce na 60%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Ustaw jasnosc przy drukarce na 60%.", "output": "control_room(room=\"drukarka\", service=\"turn_on\", value=60)", "repeats": 6}
+{"instruction": "Włącz światło w garażu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w garazu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w garażu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w garazu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w garażu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w garazu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w garażu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w garazu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w garażu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w garazu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w garażu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w garazu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w piwnicy.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w strychu.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w sypialni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w biurze.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w tarasie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w przedpokoju.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w spiżarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w spizarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w spiżarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w spizarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w spiżarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w spizarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w spiżarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w spizarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w spiżarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w spizarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w spiżarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w spizarni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w stodole.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w warsztacie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w ogrodzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w pralni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w gabinecie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w werandzie.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Włącz światło w kotłowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz swiatlo w kotlowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal światło w kotłowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapal swiatlo w kotlowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie światło w kotłowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zapalcie swiatlo w kotlowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wyłącz światło w kotłowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Wylacz swiatlo w kotlowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaś światło w kotłowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgas swiatlo w kotlowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgaście światło w kotłowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Zgascie swiatlo w kotlowni.", "output": "Nie znam takiego miejsca w mapie domu.", "repeats": 6}
+{"instruction": "Jaka jest jutro pogoda?", "output": "Nie umiem sprawdzić pogody.", "repeats": 6}
+{"instruction": "Włącz muzykę.", "output": "Nie umiem sterować muzyką.", "repeats": 6}
+{"instruction": "Wlacz muzyke.", "output": "Nie umiem sterować muzyką.", "repeats": 6}
+{"instruction": "Otwórz bramę.", "output": "Nie znam takiego urządzenia w mapie domu.", "repeats": 6}
+{"instruction": "Otworz brame.", "output": "Nie znam takiego urządzenia w mapie domu.", "repeats": 6}
+{"instruction": "Ustaw alarm na siódmą.", "output": "Nie umiem ustawiać alarmów.", "repeats": 6}
+{"instruction": "Ustaw alarm na siodma.", "output": "Nie umiem ustawiać alarmów.", "repeats": 6}
+{"instruction": "Podlej ogród.", "output": "Nie znam takiego urządzenia w mapie domu.", "repeats": 6}
+{"instruction": "Podlej ogrod.", "output": "Nie znam takiego urządzenia w mapie domu.", "repeats": 6}
+{"instruction": "Zamknij okna.", "output": "Nie znam takiego urządzenia w mapie domu.", "repeats": 6}
+{"instruction": "Włącz ogrzewanie.", "output": "Nie znam takiego urządzenia w mapie domu.", "repeats": 6}
+{"instruction": "Wlacz ogrzewanie.", "output": "Nie znam takiego urządzenia w mapie domu.", "repeats": 6}
+{"instruction": "Zrób kawę.", "output": "Nie umiem tego zrobić.", "repeats": 6}
+{"instruction": "Zrob kawe.", "output": "Nie umiem tego zrobić.", "repeats": 6}
