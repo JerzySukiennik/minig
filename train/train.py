@@ -187,9 +187,10 @@ def main():
                     help="checkpoint z model/warm_start.py — startuje z bloków MicroG "
                          "zamiast z losowych wag (ignorowane przy --resume)")
 
-    ap.add_argument("--batch-size", type=int, default=8)      # zmierzone: 8 mieści się w T4
-    ap.add_argument("--grad-accum", type=int, default=8)      # 8*8*1024 = 65 536 tokenów/krok
-    ap.add_argument("--max-steps", type=int, default=56457)   # 3.7B tokenów / 65 536
+    ap.add_argument("--batch-size", type=int, default=4)      # zmierzone: przy 8 brak pamięci
+                                                             # (logity 8x1024x48000 nie mieszczą się)
+    ap.add_argument("--grad-accum", type=int, default=16)     # 4*16*1024 = 65 536 tokenów/krok
+    ap.add_argument("--max-steps", type=int, default=54932)   # 3.6B tokenów / 65 536
     ap.add_argument("--warmup", type=int, default=1000)
     ap.add_argument("--lr", type=float, default=6e-4)
     ap.add_argument("--min-lr", type=float, default=6e-5)

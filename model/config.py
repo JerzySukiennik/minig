@@ -40,20 +40,23 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from model.gpt import GPT, GPTConfig  # noqa: E402
 
-# Measured on Kaggle T4 x2 at block_size 1024, with gradient accumulation to a
-# 65,536-token step — the same shape the training loop really uses. Numbers for
-# 16x768 and 18x896 are direct; 20x768 is interpolated between them and should
-# be confirmed by one probe run before the long training starts.
+# Measured directly on 2026-07-27 for this exact shape, after the interpolated
+# figures turned out to be optimistic. micro_batch 8 does NOT fit: at a 48k
+# vocabulary the logits alone are 8 x 1024 x 48000, and that is what pushed it
+# over — a 204M model with a 32k vocabulary had fitted at 8. The anchor run
+# returned MicroG at 16,527 tok/s against its known ~16,800, so the numbers
+# below are trustworthy.
 MEASURED = {
-    "micro_batch": 8,
-    "tok_per_s_single_gpu": 10_070,
+    "micro_batch": 4,                 # 8 -> OOM
+    "grad_accum": 16,                 # 4 x 16 x 1024 = 65,536 tokens per step
+    "tok_per_s_single_gpu": 9_291,    # interpolation had said 10,070
     "dataparallel_speedup": 1.7,      # measured on MicroG; the nominal 2.0 is wrong
-    "peak_memory_gb": 12.6,           # of the T4's 15.6
+    "peak_memory_gb": 8.8,            # of the T4's 15.6, at micro_batch 4
 }
 
 TRAINING = {
-    "target_tokens": 3_700_000_000,   # ~20.7 per parameter — Chinchilla's optimum here
-    "estimated_hours": 60,            # two weeks of a 30h/week quota
+    "target_tokens": 3_600_000_000,   # ~20.2 per parameter — Chinchilla's optimum here
+    "estimated_hours": 63,            # measured, not interpolated: 2.1 weeks of quota
     "tokens_per_step": 65_536,
     "warm_start": True,               # see model/warm_start.py
 }
