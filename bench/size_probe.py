@@ -1,18 +1,24 @@
-"""How large a model can this GPU actually train, and how fast?
+"""Confirm MiniG's throughput before two weeks of quota depend on it.
 
-Written 2026-07-27 while sizing MiniG, MicroG's larger successor. The choice
-between "284M trained to the Chinchilla optimum" and "513M trained short" is a
-choice between two-and-a-half and eight weeks of Kaggle quota, and every hour
-estimate so far has been extrapolated from MicroG's single data point. This
-measures the two candidates directly instead: real parameter counts, real
-peak memory against the T4's 16GB, and real tokens per second.
+The sizing question this file was originally written for is settled: the T4's
+memory wall sits between 204M and 282M, and MiniG is 20x768 = 178M so it
+trains at micro-batch 8. What is *not* settled is the throughput of that exact
+shape. It has only ever been interpolated between two measured points —
+16x768 at 12,948 tok/s and 18x896 at 8,946 — and the whole 60-hour budget
+rests on the 10,070 that falls out of the middle.
 
-It also answers the question extrapolation cannot: whether 513M fits at all.
-Parameters, gradients and AdamW's two moment buffers come to roughly 16 bytes
-per parameter before a single activation is stored, which is 8.2GB for 513M —
-comfortable on paper and not obviously so in practice.
+Interpolating throughput across this hardware has already been wrong twice in
+this project, both times by roughly 2x. Memory decides the micro-batch and the
+micro-batch decides throughput, and neither of those interpolates smoothly.
+Five minutes of quota replaces the guess with a number.
 
-Run on Kaggle with a T4 x2 accelerator. Takes a few minutes, not hours.
+MicroG runs alongside as an anchor, **at its own 32k vocabulary** rather than
+MiniG's 48k: the point of an anchor is to reproduce a known result, and a
+110M model with a 48k softmax is not the model that measured ~16,800 tok/s.
+If the anchor comes back far off that figure, the machine or the measurement
+is wrong and neither number should be believed.
+
+Run on Kaggle with a T4 x2 accelerator.
 
     python bench/size_probe.py
 """
@@ -26,13 +32,13 @@ import torch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from model.gpt import GPT, GPTConfig  # noqa: E402
 
-# (label, n_layer, n_head, n_embd). head_dim stays 64 throughout, as in MicroG.
+# (label, n_layer, n_head, n_embd, vocab_size). head_dim stays 64 throughout.
+# Vocabulary is per-candidate on purpose: a 48k softmax is real compute, so
+# measuring MicroG with MiniG's vocabulary would compare it against a number it
+# never produced and quietly break the anchor.
 CANDIDATES = [
-    # The one configuration that matters now, plus MicroG as a sanity anchor:
-    # if the baseline does not reproduce its known ~16,800 tok/s, the machine
-    # or the measurement is off and neither number should be trusted.
-    ("MicroG 110M (kotwica)", 12, 12, 768),
-    ("MiniG 178M (docelowy)", 20, 12, 768),
+    ("MicroG 110M (kotwica)", 12, 12, 768, 32000),
+    ("MiniG 178M (docelowy)", 20, 12, 768, 48000),
 ]
 BLOCK = int(__import__("os").environ.get("PROBE_BLOCK", 1024))
 STEPS = 3          # optimiser steps timed (each is ACCUM micro-batches)
@@ -51,11 +57,10 @@ def ffn_hidden(n_embd):
     return int(round(n_embd * 8 / 3 / 128) * 128)
 
 
-def try_config(label, n_layer, n_head, n_embd, micro_batch):
+def try_config(label, n_layer, n_head, n_embd, vocab_size, micro_batch):
     cfg = GPTConfig(n_layer=n_layer, n_head=n_head, n_embd=n_embd,
                     ffn_hidden=ffn_hidden(n_embd), block_size=BLOCK,
-                    vocab_size=48000)   # MiniG's vocabulary: a bigger softmax
-                                        # is real compute and must be measured
+                    vocab_size=vocab_size)
     device = "cuda" if torch.cuda.is_available() else "cpu"
     torch.cuda.empty_cache()
     torch.cuda.reset_peak_memory_stats()
@@ -109,12 +114,12 @@ def main():
           f"-> {'bf16' if torch.cuda.get_device_capability()[0] >= 8 else 'fp16'}\n")
 
     results = []
-    for label, L, H, E in CANDIDATES:
-        # Back off until it fits rather than reporting a flat failure: knowing
-        # 513M trains at micro-batch 2 is a usable answer, "OOM" is not.
+    for label, L, H, E, V in CANDIDATES:
+        # Back off until it fits rather than reporting a flat failure:
+        # "trains at micro-batch 4" is a usable answer, "OOM" is not.
         for micro_batch in (8, 4, 2, 1):
             try:
-                n, tps, peak, accum = try_config(label, L, H, E, micro_batch)
+                n, tps, peak, accum = try_config(label, L, H, E, V, micro_batch)
                 print(f"{label:<26} {n/1e6:>6.0f}M  micro_batch={micro_batch}x{accum}  "
                       f"{tps:>8,.0f} tok/s  peak {peak:>5.1f} GB")
                 results.append((label, n, tps, micro_batch, peak))
