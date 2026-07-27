@@ -1,32 +1,32 @@
-"""Build MiniG's initial weights out of MicroG's finished ones.
+"""Build G-Mini's initial weights out of G-Micro's finished ones.
 
-MicroG spent 4,060 steps and roughly ten GPU-hours learning Polish. MiniG is
+G-Micro spent 4,060 steps and roughly ten GPU-hours learning Polish. G-Mini is
 the same architecture one size up, so most of that is transferable — and at a
-two-week budget where training from scratch buys only ~9% over MicroG, a head
+two-week budget where training from scratch buys only ~9% over G-Micro, a head
 start is worth more than any extra layer.
 
 Three transplants, each with a different problem to solve.
 
-**Embeddings — the hard one.** MiniG's tokenizer is not MicroG's: 48k instead
+**Embeddings — the hard one.** G-Mini's tokenizer is not G-Micro's: 48k instead
 of 32k, and digits split apart. A new vocabulary normally means throwing the
 embedding table away and feeding random vectors into a pretrained stack, which
 is how a warm start turns into an expensive way to corrupt good weights. But
-measured on the two trained tokenizers, **30,688 of MiniG's 48,000 tokens are
-byte-identical strings in MicroG's vocabulary** — 64%. Those embeddings are
+measured on the two trained tokenizers, **30,688 of G-Mini's 48,000 tokens are
+byte-identical strings in G-Micro's vocabulary** — 64%. Those embeddings are
 copied straight across. The remaining 17,312 are initialised as the mean of
-whatever MicroG's tokenizer breaks their string into, which is the standard
+whatever G-Micro's tokenizer breaks their string into, which is the standard
 approach for extending a vocabulary and is far closer to right than noise. A
 token spelled " architektonicznych" starts life as the average of the pieces
-MicroG used to spell it.
+G-Micro used to spell it.
 
 **Blocks — the easy one.** n_embd, n_head and ffn_hidden are identical by
-design (that is the whole reason MiniG is 20x768 rather than the ladder's
-nominal 250M), so MicroG's twelve blocks load into MiniG's first twelve
+design (that is the whole reason G-Mini is 20x768 rather than the ladder's
+nominal 250M), so G-Micro's twelve blocks load into G-Mini's first twelve
 unchanged.
 
 **The eight new blocks — the subtle one.** Random initialisation would inject
 noise into the middle of a working stack. Instead each new block is a copy of
-one of MicroG's, with its two residual output projections zeroed. A block whose
+one of G-Micro's, with its two residual output projections zeroed. A block whose
 output projection is zero contributes exactly nothing to the residual stream,
 so at step zero the twenty-layer model computes precisely what the twelve-layer
 model did; the new capacity then grows in from identity rather than fighting
@@ -45,7 +45,7 @@ from pathlib import Path
 import torch
 from tokenizers import Tokenizer
 
-MICROG = Path.home() / "Downloads/Claude/Projects/AIe/MicroG"
+G_MICRO = Path.home() / "Downloads/Claude/Projects/AIe/G-Micro"
 
 # The two matrices that write back into the residual stream. Taken from the
 # real checkpoint rather than guessed: a first version matched ".down.weight",
@@ -107,12 +107,12 @@ def build(old_ckpt: Path, new_layers: int, out_path: Path, verify: bool):
     ck = torch.load(old_ckpt, map_location="cpu", weights_only=False)
     old = strip_dataparallel(ck["model"])
     old_layers = 1 + max(int(k.split(".")[1]) for k in old if k.startswith("blocks."))
-    print(f"MicroG: {old_layers} bloków, krok {ck.get('step', '?')}")
+    print(f"G-Micro: {old_layers} bloków, krok {ck.get('step', '?')}")
     if new_layers < old_layers:
-        raise SystemExit(f"MiniG ma mieć {new_layers} bloków, mniej niż {old_layers} — "
+        raise SystemExit(f"G-Mini ma mieć {new_layers} bloków, mniej niż {old_layers} — "
                          "ten skrypt tylko powiększa")
 
-    old_tok = Tokenizer.from_file(str(MICROG / "data" / "tokenizer-v2.json"))
+    old_tok = Tokenizer.from_file(str(G_MICRO / "data" / "tokenizer-v2.json"))
     new_tok = Tokenizer.from_file("data/tokenizer.json")
 
     emb_key = next(k for k in old if k.endswith("tok_emb.weight"))
@@ -161,7 +161,7 @@ def run_checks(new_state, old, old_layers, new_layers, new_emb, new_tok, old_tok
     for i in range(old_layers):
         for k, v in block_keys(old, i).items():
             assert torch.equal(new_state[k], v), f"blok {i} nie przeniósł się wiernie"
-    print(f"  bloki 0-{old_layers-1} identyczne z MicroG: OK")
+    print(f"  bloki 0-{old_layers-1} identyczne z G-Micro: OK")
 
     for i in range(old_layers, new_layers):
         outs = [v for k, v in new_state.items()
@@ -183,8 +183,8 @@ def run_checks(new_state, old, old_layers, new_layers, new_emb, new_tok, old_tok
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--from-ckpt", type=Path,
-                    default=MICROG / "checkpoints" / "run1" / "best.pt",
-                    help="checkpoint MicroG (domyślnie baza pretreningu, nie SFT)")
+                    default=G_MICRO / "checkpoints" / "run1" / "best.pt",
+                    help="checkpoint G-Micro (domyślnie baza pretreningu, nie SFT)")
     ap.add_argument("--layers", type=int, default=20)
     ap.add_argument("--out", type=Path, default=Path("checkpoints/warm_start.pt"))
     ap.add_argument("--verify", action="store_true", default=True)

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>G-Mini — kandydaci na znak</title>
+<style>
+  :root{
+    --bg:#000; --ink:#fff; --dim:rgba(255,255,255,.42); --line:rgba(255,255,255,.12);
+    --mono: ui-monospace,"SF Mono",Menlo,monospace;
+    --ui: -apple-system,"Inter",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ui);padding:48px 40px 80px}
+  h1{font-size:22px;font-weight:500;letter-spacing:-.01em;margin:0 0 6px}
+  .sub{color:var(--dim);font-size:13.5px;line-height:1.6;max-width:60ch;margin:0 0 40px}
+  h2{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+     color:var(--dim);font-weight:400;margin:44px 0 16px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .row{display:flex;gap:28px;flex-wrap:wrap;align-items:flex-start}
+  .card{border:1px solid var(--line);border-radius:14px;padding:20px;background:rgba(255,255,255,.02)}
+  .card .name{font-family:var(--mono);font-size:11px;color:var(--dim);margin-bottom:12px}
+  .card .note{font-size:12.5px;color:var(--dim);line-height:1.55;max-width:34ch;margin-top:14px}
+  svg{display:block}
+  .grid line{stroke:rgba(255,255,255,.16);stroke-width:1;stroke-dasharray:3 4}
+  .grid text{fill:rgba(255,255,255,.34);font-family:var(--mono);font-size:9px}
+  .family{display:flex;gap:34px;align-items:flex-end;flex-wrap:wrap}
+  .family figcaption{font-family:var(--mono);font-size:10.5px;color:var(--dim);margin-top:10px;text-align:center}
+  .small-test{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+  .chip{width:34px;height:34px;border-radius:8px;background:#fff;display:grid;place-items:center}
+  .chip svg{width:24px;height:24px}
+  .inverse{background:#fff;border-radius:14px;padding:20px}
+</style>
+</head>
+<body>
+
+<h1>G-Mini — kandydaci na znak</h1>
+<p class="sub">
+  Wszystkie trzy narysowane na tej samej siatce co G-Micro, Gedit i G-Voice: grubość kreski 15,
+  lewy glif w polu <code>x 60–132, y 74–172</code>, litera G to dosłownie ta sama ścieżka
+  (<code>M243 62 a50 50 0 1 0 0 56 V90 H200</code>). Nic tu nie jest rysowane na oko —
+  jeśli któryś kandydat wygląda inaczej, to przez kształt glifu, nie przez proporcje.
+</p>
+
+<h2>Siatka konstrukcyjna</h2>
+<div class="row">
+  <div class="card">
+    <div class="name">wspólne linie</div>
+    <svg width="330" height="215" viewBox="0 0 310 212">
+      <g class="grid">
+        <line x1="0" y1="85" x2="310" y2="85"/><text x="4" y="82">74 · x-height</text>
+        <line x1="0" y1="151" x2="310" y2="151"/><text x="4" y="148">140 · baseline</text>
+        <line x1="0" y1="183" x2="310" y2="183"/><text x="4" y="180">172 · descender</text>
+      </g>
+      <g fill="none" stroke="rgba(255,255,255,.30)" stroke-width="15" stroke-linecap="butt"
+         stroke-linejoin="round" transform="translate(0,11)">
+        <path d="M60 74 L60 172"/>
+        <path d="M60 104 Q60 140 96 140 Q132 140 132 104 L132 74"/>
+        <path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/>
+      </g>
+    </svg>
+    <p class="note">G-Micro dla odniesienia. Bowl µ i stopa G dzielą baseline; ogon µ ciągnie znak w dół.</p>
+  </div>
+</div>
+
+<h2>Kandydat A — wysokie „m” (mili)</h2>
+<div class="row">
+  <div class="card">
+    <div class="name">A · milli</div>
+    <svg width="330" height="215" viewBox="0 0 310 212">
+      <g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+        <path d="M60 172 L60 96 Q60 74 78 74 Q96 74 96 96 L96 172"/>
+        <path d="M96 96 Q96 74 114 74 Q132 74 132 96 L132 172"/>
+        <path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/>
+      </g>
+    </svg>
+    <p class="note">
+      µ to symbol SI dla mikro, m dla mili — czyli drabina µG → mG jest poprawna naukowo
+      i sama tłumaczy, że G-Mini jest o szczebel wyżej. Wypełnia pole dokładnie jak µ.
+      Ryzyko: przy małym rozmiarze m i µ mogą się mylić.
+    </p>
+  </div>
+</div>
+
+<h2>Kandydat B — „m” w naturalnych proporcjach</h2>
+<div class="row">
+  <div class="card">
+    <div class="name">B · litera</div>
+    <svg width="330" height="215" viewBox="0 0 310 212">
+      <g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+        <path d="M60 172 L60 128 Q60 106 78 106 Q96 106 96 128 L96 172"/>
+        <path d="M96 128 Q96 106 114 106 Q132 106 132 128 L132 172"/>
+        <path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/>
+      </g>
+    </svg>
+    <p class="note">
+      To samo znaczenie, ale litera ma prawdziwe proporcje małego „m” i siedzi niżej.
+      Czyta się spokojniej i mniej myli z µ. Cena: znak jest optycznie lżejszy od reszty
+      rodziny, bo nie sięga górnej linii.
+    </p>
+  </div>
+</div>
+
+<h2>Kandydat C — trzy słupki (szczebel drabiny)</h2>
+<div class="row">
+  <div class="card">
+    <div class="name">C · poziom</div>
+    <svg width="330" height="215" viewBox="0 0 310 212">
+      <g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+        <path d="M60 172 L60 140"/>
+        <path d="M96 172 L96 110"/>
+        <path d="M132 172 L132 74"/>
+        <path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/>
+      </g>
+    </svg>
+    <p class="note">
+      Rezygnuje z litery na rzecz symbolu — jak crop-mark w Gedicie. Trzy rosnące słupki
+      mówią wprost „to jest drabina, a ja jestem wyżej”. Zero pomyłki z µ.
+      Ryzyko: mówi o rodzinie, nie o samym G-Mini — i podobny znak trudno będzie zrobić
+      dla CoreG i MegaG bez powtarzania tego samego pomysłu.
+    </p>
+  </div>
+</div>
+
+<h2>W szeregu rodziny</h2>
+<p class="sub" style="margin-bottom:22px">
+  Tak wygląda decyzja naprawdę — nie w izolacji, tylko obok rodzeństwa.
+  Sprawdź, czy G-Mini czyta się jako <em>osobny</em> model, a nie jako wariant G-Micro.
+</p>
+<div class="family">
+  <figure style="margin:0">
+    <svg width="150" height="103" viewBox="0 0 310 212"><g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+      <path d="M60 74 L60 172"/><path d="M60 104 Q60 140 96 140 Q132 140 132 104 L132 74"/>
+      <path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/></g></svg>
+    <figcaption>G-Micro</figcaption>
+  </figure>
+  <figure style="margin:0">
+    <svg width="150" height="103" viewBox="0 0 310 212"><g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+      <path d="M60 172 L60 96 Q60 74 78 74 Q96 74 96 96 L96 172"/><path d="M96 96 Q96 74 114 74 Q132 74 132 96 L132 172"/>
+      <path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/></g></svg>
+    <figcaption>G-Mini · A</figcaption>
+  </figure>
+  <figure style="margin:0">
+    <svg width="150" height="103" viewBox="0 0 310 212"><g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+      <path d="M60 172 L60 128 Q60 106 78 106 Q96 106 96 128 L96 172"/><path d="M96 128 Q96 106 114 106 Q132 106 132 128 L132 172"/>
+      <path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/></g></svg>
+    <figcaption>G-Mini · B</figcaption>
+  </figure>
+  <figure style="margin:0">
+    <svg width="150" height="103" viewBox="0 0 310 212"><g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+      <path d="M60 172 L60 140"/><path d="M96 172 L96 110"/><path d="M132 172 L132 74"/>
+      <path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/></g></svg>
+    <figcaption>G-Mini · C</figcaption>
+  </figure>
+  <figure style="margin:0">
+    <svg width="150" height="103" viewBox="0 0 310 212"><g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+      <path d="M60 74 L96 172 L132 74"/><path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/></g></svg>
+    <figcaption>G-Voice</figcaption>
+  </figure>
+</div>
+
+<h2>Test małego rozmiaru — ikona 34 px</h2>
+<p class="sub" style="margin-bottom:20px">
+  Tu upadają znaki, które w dużym rozmiarze wyglądały dobrze. Jeśli A i G-Micro zlewają się
+  w jedną plamę, A odpada niezależnie od tego, jak ładna jest logika µ → m.
+</p>
+<div class="small-test">
+  <div class="chip"><svg viewBox="0 0 310 212"><g fill="none" stroke="#000" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+    <path d="M60 74 L60 172"/><path d="M60 104 Q60 140 96 140 Q132 140 132 104 L132 74"/><path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/></g></svg></div>
+  <div class="chip"><svg viewBox="0 0 310 212"><g fill="none" stroke="#000" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+    <path d="M60 172 L60 96 Q60 74 78 74 Q96 74 96 96 L96 172"/><path d="M96 96 Q96 74 114 74 Q132 74 132 96 L132 172"/><path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/></g></svg></div>
+  <div class="chip"><svg viewBox="0 0 310 212"><g fill="none" stroke="#000" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+    <path d="M60 172 L60 128 Q60 106 78 106 Q96 106 96 128 L96 172"/><path d="M96 128 Q96 106 114 106 Q132 106 132 128 L132 172"/><path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/></g></svg></div>
+  <div class="chip"><svg viewBox="0 0 310 212"><g fill="none" stroke="#000" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round" transform="translate(0,11)">
+    <path d="M60 172 L60 140"/><path d="M96 172 L96 110"/><path d="M132 172 L132 74"/><path d="M243 62 a50 50 0 1 0 0 56 V90 H200"/></g></svg></div>
+  <span style="font-family:var(--mono);font-size:11px;color:var(--dim)">G-Micro · A · B · C</span>
+</div>
+
+</body>
+</html>

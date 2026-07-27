@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>G — jeden znak dla całej rodziny</title>
+<style>
+  :root{
+    --bg:#000; --ink:#fff; --dim:rgba(255,255,255,.42); --line:rgba(255,255,255,.12);
+    --mono: ui-monospace,"SF Mono",Menlo,monospace;
+    --ui: -apple-system,"Inter",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ui);padding:48px 40px 90px}
+  h1{font-size:22px;font-weight:500;margin:0 0 6px}
+  .sub{color:var(--dim);font-size:13.5px;line-height:1.65;max-width:64ch;margin:0 0 40px}
+  h2{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+     color:var(--dim);font-weight:400;margin:48px 0 18px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .row{display:flex;gap:34px;flex-wrap:wrap;align-items:center}
+  svg{display:block}
+  .lockup{display:flex;align-items:center;gap:18px}
+  .wordmark{font-family:var(--mono);letter-spacing:.02em}
+  .wm-lg{font-size:38px} .wm-md{font-size:22px}
+  .tier{display:flex;align-items:baseline;gap:14px;padding:13px 0;border-bottom:1px solid var(--line)}
+  .tier .lvl{font-family:var(--mono);font-size:11px;color:var(--dim);width:22px}
+  .tier .nm{font-family:var(--mono);font-size:17px;min-width:130px}
+  .tier .pr{font-family:var(--mono);font-size:13px;color:var(--dim);min-width:70px;text-align:right}
+  .tier .st{font-size:12.5px;color:var(--dim)}
+  .chip{width:38px;height:38px;border-radius:9px;background:#fff;display:grid;place-items:center}
+  .chip.sm{width:22px;height:22px;border-radius:5px}
+  .note{font-size:12.5px;color:var(--dim);line-height:1.6;max-width:62ch}
+  .onwhite{background:#fff;padding:26px 34px;border-radius:16px}
+</style>
+</head>
+<body>
+
+<h1>G — jeden znak dla całej rodziny</h1>
+<p class="sub">
+  Nic tu nie jest nowo narysowane. Litera G to <strong>dosłownie ta sama ścieżka</strong>,
+  która siedziała w µG, w znaku Gedita i w G-Voice — promień 50, grubość kreski 15,
+  przerwa po prawej stronie, poprzeczka do środka. Zmiana polega na zdjęciu lewego glifu,
+  nie na zaprojektowaniu czegoś od zera. Dlatego znak od razu wygląda jak rodzina:
+  bo nią jest.
+</p>
+
+<h2>Znak</h2>
+<div class="row">
+  <svg width="210" height="210" viewBox="0 0 200 200">
+    <g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round">
+      <path d="M143 72 a50 50 0 1 0 0 56 V100 H100"/>
+    </g>
+  </svg>
+  <div class="onwhite">
+    <svg width="150" height="150" viewBox="0 0 200 200">
+      <g fill="none" stroke="#000" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round">
+        <path d="M143 72 a50 50 0 1 0 0 56 V100 H100"/>
+      </g>
+    </svg>
+  </div>
+  <p class="note">
+    Środek okręgu 100,100 · promień 50 · kreska 15 · przerwa od y 72 do 128 ·
+    poprzeczka od krawędzi do dokładnego środka. Te liczby są przeniesione
+    ze starego znaku bez zmian, tylko przesunięte na środek kwadratu.
+  </p>
+</div>
+
+<h2>Lockup — znak + nazwa</h2>
+<div class="row" style="gap:56px">
+  <div class="lockup">
+    <svg width="62" height="62" viewBox="0 0 200 200"><g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round">
+      <path d="M143 72 a50 50 0 1 0 0 56 V100 H100"/></g></svg>
+    <span class="wordmark wm-lg">G-Micro</span>
+  </div>
+  <div class="lockup">
+    <svg width="62" height="62" viewBox="0 0 200 200"><g fill="none" stroke="#fff" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round">
+      <path d="M143 72 a50 50 0 1 0 0 56 V100 H100"/></g></svg>
+    <span class="wordmark wm-lg">G-Mini</span>
+  </div>
+</div>
+<p class="note" style="margin-top:20px">
+  Jeden znak, nazwa niesie poziom. To jest cała przewaga tego rozwiązania nad poprzednim:
+  nowy model nie potrzebuje nowego logo, tylko nowego słowa po myślniku — a G-Core i G-Mega
+  są gotowe brandingowo, zanim powstaną.
+</p>
+
+<h2>Drabina</h2>
+<div style="max-width:560px">
+  <div class="tier"><span class="lvl">1</span><span class="nm">G-Micro</span><span class="pr">110M</span><span class="st">wytrenowany, działa</span></div>
+  <div class="tier"><span class="lvl">2</span><span class="nm">G-Mini</span><span class="pr">178M</span><span class="st">pipeline gotowy, czeka na GPU</span></div>
+  <div class="tier"><span class="lvl">3</span><span class="nm">G-Core</span><span class="pr">500M</span><span class="st">policzony — 15,6 tyg. quoty</span></div>
+  <div class="tier"><span class="lvl">4</span><span class="nm">G-Mega</span><span class="pr">1B+</span><span class="st">przed nami</span></div>
+</div>
+<p class="note" style="margin-top:18px">
+  Parametry to wartości zmierzone, nie okrągłe hasła: G-Micro ma 109,5M, a G-Mini
+  178,5M przy 20 warstwach × 768. Deklarowane „100M" i „250M” z tabeli to zaokrąglenia
+  poziomów, nie specyfikacja.
+</p>
+
+<h2>Ikona</h2>
+<div class="row">
+  <div class="chip"><svg viewBox="0 0 200 200" width="27" height="27"><g fill="none" stroke="#000" stroke-width="19" stroke-linecap="butt" stroke-linejoin="round">
+    <path d="M143 72 a50 50 0 1 0 0 56 V100 H100"/></g></svg></div>
+  <div class="chip sm"><svg viewBox="0 0 200 200" width="15" height="15"><g fill="none" stroke="#000" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round">
+    <path d="M143 72 a50 50 0 1 0 0 56 V100 H100"/></g></svg></div>
+  <span class="wordmark wm-md" style="color:var(--dim)">38 px · 22 px</span>
+  <p class="note">
+    Pojedyncza litera znosi zmniejszanie znacznie lepiej niż para glifów —
+    stary monogram przy 22 px zlewał się w plamę, tutaj przerwa i poprzeczka
+    trzymają się do końca. To był najmocniejszy argument przeciwko poprzedniemu
+    systemowi i on sam się teraz rozwiązał.
+  </p>
+</div>
+
+</body>
+</html>

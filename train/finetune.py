@@ -1,7 +1,7 @@
 """
 Instruction tuning — turn the pretrained base model into something that answers.
 
-Pretraining left MicroG able to continue Polish text. Asked a question it
+Pretraining left G-Micro able to continue Polish text. Asked a question it
 produces more questions, because that is what follows a question on the open
 web. This stage teaches the one missing habit: after <|assistant|>, answer.
 

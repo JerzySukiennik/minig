@@ -1,4 +1,4 @@
-"""Teach MiniG to turn a spoken Polish command into a Home Assistant call.
+"""Teach G-Mini to turn a spoken Polish command into a Home Assistant call.
 
 Gzowo AI already owns the plumbing — `control_room(room, service, value?)`
 dispatched through its tool router, with the real entity map in
@@ -7,7 +7,7 @@ does the parsing. This generates the data that lets a 178M local model do it
 instead: no internet, no latency, no API key.
 
 Why this is within reach at this size, when open-ended knowledge is not: it is
-a closed set. Eleven rooms, two services, one optional number. MicroG already
+a closed set. Eleven rooms, two services, one optional number. G-Micro already
 scores 100% on identity (a closed memorised set) and generalised the "list N
 things" format to categories it never saw, so mapping a phrasing onto one of
 eleven slots is easier than what it already does.
@@ -24,7 +24,7 @@ fallback**:
   Inflection is taught explicitly. The command says "w kuchni", "na wiacie",
   "przy drukarce"; the tool wants the nominative "kuchnia", "wiata",
   "drukarka". Polish declension is the actual mapping problem here, and it is
-  exactly what broke MicroG's identity examples until accent-free variants
+  exactly what broke G-Micro's identity examples until accent-free variants
   were added — so every room ships with the forms people really say.
 
 The app must still validate: anything the model emits is checked against the
@@ -95,7 +95,7 @@ DIM_LEVELS = [10, 20, 25, 30, 40, 50, 60, 70, 75, 80, 90]
 
 def strip_diacritics(text: str) -> str:
     """'w łazience' -> 'w lazience'. People type Polish without accents, and
-    MicroG proved the model treats the two as unrelated strings unless both
+    G-Micro proved the model treats the two as unrelated strings unless both
     are taught."""
     text = text.replace("ł", "l").replace("Ł", "L")
     return "".join(c for c in unicodedata.normalize("NFD", text)

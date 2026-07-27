@@ -1,6 +1,6 @@
 """Does the whole pipeline actually hold together, before any quota is spent?
 
-MicroG's pretraining once restarted from a stale checkpoint and burned real GPU
+G-Micro's pretraining once restarted from a stale checkpoint and burned real GPU
 hours because a path assumption failed silently. Everything here is the kind of
 thing that fails loudly on a laptop in a minute and expensively on Kaggle in an
 hour: the model builds at the intended size, the warm-start checkpoint loads
@@ -36,7 +36,7 @@ n = model.num_params()
 check("kształt zgodny z planem", (cfg.n_layer, cfg.n_embd, cfg.vocab_size) == (20, 768, 48000),
       f"{cfg.n_layer}x{cfg.n_embd}, słownik {cfg.vocab_size}")
 check("rozmiar ~178M", 175e6 < n < 182e6, f"{n/1e6:.1f}M")
-check("n_embd zgodne z MicroG (warunek ciepłego startu)", cfg.n_embd == 768)
+check("n_embd zgodne z G-Micro (warunek ciepłego startu)", cfg.n_embd == 768)
 
 print("\n=== tokenizer ===")
 tok_path = REPO / "data" / "tokenizer.json"
@@ -79,7 +79,7 @@ logits, loss = model(x, targets=y, return_logits=False)
 check("forward zwraca skończoną stratę", torch.isfinite(loss), f"{loss.item():.3f}")
 import math  # noqa: E402
 # Not compared against ln(vocab): the inputs are random token ids, and a model
-# carrying MicroG's weights confidently predicts Polish-shaped continuations
+# carrying G-Micro's weights confidently predicts Polish-shaped continuations
 # that random targets never match, so it scores *worse* than uniform here. That
 # is the expected reading, and calling it "close to random" would be wrong.
 # What matters is only that the number is finite and in a sane range.

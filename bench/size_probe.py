@@ -1,7 +1,7 @@
-"""Confirm MiniG's throughput before two weeks of quota depend on it.
+"""Confirm G-Mini's throughput before two weeks of quota depend on it.
 
 The sizing question this file was originally written for is settled: the T4's
-memory wall sits between 204M and 282M, and MiniG is 20x768 = 178M so it
+memory wall sits between 204M and 282M, and G-Mini is 20x768 = 178M so it
 trains at micro-batch 8. What is *not* settled is the throughput of that exact
 shape. It has only ever been interpolated between two measured points —
 16x768 at 12,948 tok/s and 18x896 at 8,946 — and the whole 60-hour budget
@@ -12,8 +12,8 @@ this project, both times by roughly 2x. Memory decides the micro-batch and the
 micro-batch decides throughput, and neither of those interpolates smoothly.
 Five minutes of quota replaces the guess with a number.
 
-MicroG runs alongside as an anchor, **at its own 32k vocabulary** rather than
-MiniG's 48k: the point of an anchor is to reproduce a known result, and a
+G-Micro runs alongside as an anchor, **at its own 32k vocabulary** rather than
+G-Mini's 48k: the point of an anchor is to reproduce a known result, and a
 110M model with a 48k softmax is not the model that measured ~16,800 tok/s.
 If the anchor comes back far off that figure, the machine or the measurement
 is wrong and neither number should be believed.
@@ -34,11 +34,11 @@ from model.gpt import GPT, GPTConfig  # noqa: E402
 
 # (label, n_layer, n_head, n_embd, vocab_size). head_dim stays 64 throughout.
 # Vocabulary is per-candidate on purpose: a 48k softmax is real compute, so
-# measuring MicroG with MiniG's vocabulary would compare it against a number it
+# measuring G-Micro with G-Mini's vocabulary would compare it against a number it
 # never produced and quietly break the anchor.
 CANDIDATES = [
-    ("MicroG 110M (kotwica)", 12, 12, 768, 32000),
-    ("MiniG 178M (docelowy)", 20, 12, 768, 48000),
+    ("G-Micro 110M (kotwica)", 12, 12, 768, 32000),
+    ("G-Mini 178M (docelowy)", 20, 12, 768, 48000),
 ]
 BLOCK = int(__import__("os").environ.get("PROBE_BLOCK", 1024))
 STEPS = 3          # optimiser steps timed (each is ACCUM micro-batches)
@@ -47,13 +47,13 @@ WARMUP = 1
 # batch 8 x grad_accum 8 x block 1024) so the optimiser runs once per eight
 # micro-batches. A first version of this probe stepped the optimiser after
 # every micro-batch and came out roughly 2x pessimistic — it predicted 21h for
-# MicroG's 2B tokens where the real run took about 10. Matching the real step
+# G-Micro's 2B tokens where the real run took about 10. Matching the real step
 # size is the difference between a usable estimate and a misleading one.
 TOKENS_PER_STEP = 65536
 
 
 def ffn_hidden(n_embd):
-    """MicroG's ratio: ~8/3 x n_embd, rounded to a multiple of 128."""
+    """G-Micro's ratio: ~8/3 x n_embd, rounded to a multiple of 128."""
     return int(round(n_embd * 8 / 3 / 128) * 128)
 
 
@@ -131,7 +131,7 @@ def main():
             print(f"{label:<26} nie mieści się nawet przy micro_batch=1")
 
     # Single-GPU numbers above; training runs DataParallel across both cards,
-    # which measured ~1.7x on MicroG rather than 2x.
+    # which measured ~1.7x on G-Micro rather than 2x.
     DP = 1.7
     print(f"\nprzewidywany czas treningu (DataParallel x{DP}, obie karty):")
     print(f"{'model':<26}{'tok/param':>10}{'tokenów':>10}{'godzin':>9}{'tygodni quoty':>15}")

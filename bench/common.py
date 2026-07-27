@@ -1,4 +1,4 @@
-"""Shared loading code for the MicroG benchmark suite."""
+"""Shared loading code for the G-Micro benchmark suite."""
 
 import sys
 from pathlib import Path

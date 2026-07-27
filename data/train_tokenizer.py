@@ -1,8 +1,8 @@
-"""Train MiniG's Polish BPE tokenizer — 48k vocabulary, digits split apart.
+"""Train G-Mini's Polish BPE tokenizer — 48k vocabulary, digits split apart.
 
-Two changes from MicroG's tokenizer, both measured rather than assumed.
+Two changes from G-Micro's tokenizer, both measured rather than assumed.
 
-**Digits are split into individual characters.** MicroG's vocabulary contains
+**Digits are split into individual characters.** G-Micro's vocabulary contains
 241 multi-digit tokens, including whole years like 1998, 2011 and 2012 as
 single symbols. Measured 2026-07-27, that is exactly where its grounding
 fails: handed a text saying a castle was built in 1417 it answered 1418, and
@@ -29,7 +29,7 @@ from tokenizers.models import BPE
 
 # Reserved control tokens. The chat format is built from these, so they have to
 # exist from the first step of pretraining — bolting them on afterwards leaves
-# their embeddings as untrained noise. <|context|> earned its place in MicroG:
+# their embeddings as untrained noise. <|context|> earned its place in G-Micro:
 # the SFT rounds that taught grounding all depend on it.
 SPECIAL_TOKENS = [
     "<|pad|>",
@@ -77,7 +77,7 @@ def report(tokenizer):
 
     vocab = tokenizer.get_vocab()
     multi_digit = [t for t in vocab if re.fullmatch(r"\s?\d{2,}", t)]
-    print(f"\nwielocyfrowe tokeny w słowniku: {len(multi_digit)}  (MicroG miał 241)")
+    print(f"\nwielocyfrowe tokeny w słowniku: {len(multi_digit)}  (G-Micro miał 241)")
     if multi_digit:
         print(f"  UWAGA, nie powinno ich być: {multi_digit[:10]}")
 

@@ -28,7 +28,7 @@ from datasets import load_dataset
 
 DOC_SEP = "<|doc|>"
 
-# MicroG trained on the first two. MiniG needs roughly twice the text (3.7B
+# G-Micro trained on the first two. G-Mini needs roughly twice the text (3.7B
 # tokens against 2.0B), and taking it all from one web crawl would buy quantity
 # without variety, so CulturaX joins them — a separately cleaned multi-source
 # corpus with its own filtering, rather than more of the same pages.

@@ -61,7 +61,7 @@ UNRELATED = [
     "Kto napisał Pana Tadeusza?", "Wyjaśnij czym jest grawitacja.",
     "Podaj przepis na zupę pomidorową.",
 ]
-IDENTITY_MARKERS = ("MicroG", "modelem językowym", "model językowy", "110 milionów")
+IDENTITY_MARKERS = ("G-Micro", "modelem językowym", "model językowy", "110 milionów")
 
 # (context, question, strings that a grounded answer should contain).
 # The point is not world knowledge — it is whether the model reads the text in
@@ -311,9 +311,9 @@ def evaluate(ckpt_path):
         return rows
 
     section("identity_diacritics", IDENTITY_DIACRITICS,
-            lambda c, a: "MicroG" in a)
+            lambda c, a: "G-Micro" in a)
     section("identity_plain", IDENTITY_PLAIN,
-            lambda c, a: "MicroG" in a)
+            lambda c, a: "G-Micro" in a)
     # Inverted: passing means NOT sounding like an identity answer.
     section("no_identity_leak", UNRELATED,
             lambda c, a: not any(m in a for m in IDENTITY_MARKERS))

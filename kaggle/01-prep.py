@@ -3,7 +3,7 @@
 Runs on CPU — no GPU quota is spent here, which matters because the quota is
 shared with Gedit and every hour of it is contested.
 
-The corpus is built **on Kaggle rather than uploaded**, the decision MicroG
+The corpus is built **on Kaggle rather than uploaded**, the decision G-Micro
 made and proved: 9GB of Polish text over a home connection is a day of
 uploading, while Kaggle pulls it from Hugging Face in under an hour. Only code
 travels from the laptop, via git clone.
@@ -16,7 +16,7 @@ import os
 import subprocess
 import sys
 
-REPO = "https://github.com/JerzySukiennik/minig.git"
+REPO = "https://github.com/JerzySukiennik/g-mini.git"
 WORK = "/kaggle/working"
 
 # Enough characters to reach ~3.7B tokens after packing. Polish runs about 3.6
@@ -25,11 +25,11 @@ WORK = "/kaggle/working"
 # and the web crawls make up the volume.
 TARGETS = {"wiki": 3_000_000_000, "fineweb": 7_000_000_000, "culturax": 4_000_000_000}
 
-if os.path.exists(f"{WORK}/minig"):
-    subprocess.run(["git", "-C", f"{WORK}/minig", "pull", "--ff-only"], check=True)
+if os.path.exists(f"{WORK}/g-mini"):
+    subprocess.run(["git", "-C", f"{WORK}/g-mini", "pull", "--ff-only"], check=True)
 else:
-    subprocess.run(["git", "clone", "--depth", "1", REPO, f"{WORK}/minig"], check=True)
-os.chdir(f"{WORK}/minig")
+    subprocess.run(["git", "clone", "--depth", "1", REPO, f"{WORK}/g-mini"], check=True)
+os.chdir(f"{WORK}/g-mini")
 
 subprocess.run([sys.executable, "-m", "pip", "install", "-q",
                 "datasets", "tokenizers", "zstandard"], check=True)

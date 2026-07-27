@@ -1,5 +1,5 @@
 """
-Pretraining loop for MicroG.
+Pretraining loop for G-Micro.
 
 Designed around one hard constraint: free Kaggle/Colab sessions die after a few
 hours, without warning. So every piece of state that the run depends on —
@@ -184,7 +184,7 @@ def main():
     ap.add_argument("--out", type=Path, default=Path("checkpoints/run1"))
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--warm-start", type=str, default=None,
-                    help="checkpoint z model/warm_start.py — startuje z bloków MicroG "
+                    help="checkpoint z model/warm_start.py — startuje z bloków G-Micro "
                          "zamiast z losowych wag (ignorowane przy --resume)")
 
     ap.add_argument("--batch-size", type=int, default=4)      # zmierzone: przy 8 brak pamięci
@@ -247,7 +247,7 @@ def main():
         step, best_val = load_ckpt(ckpt_path, model, opt, device)
         print(f"resumed from step {step} (best val {best_val:.4f})")
     elif args.warm_start:
-        # Start from MicroG's finished blocks rather than from noise. Weights
+        # Start from G-Micro's finished blocks rather than from noise. Weights
         # only — no optimiser state, no step count: this is step 0 of a new
         # model, not the continuation of an old run. Built by
         # model/warm_start.py, which also transplants the embedding table

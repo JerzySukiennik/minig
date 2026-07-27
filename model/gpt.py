@@ -1,10 +1,10 @@
 """
-MiniG — a ~178M parameter decoder-only transformer, written from scratch.
+G-Mini — a ~178M parameter decoder-only transformer, written from scratch.
 
-Level 2 of the family ladder (MicroG 110M -> MiniG -> CoreG 500M -> MegaG 1B+).
-The code here is MicroG's, unchanged apart from the default shape: a model that
+Level 2 of the family ladder (G-Micro 110M -> G-Mini -> CoreG 500M -> MegaG 1B+).
+The code here is G-Micro's, unchanged apart from the default shape: a model that
 already trained successfully for 4,060 steps is not worth rewriting, and every
-dimension except depth is deliberately identical so MicroG's finished blocks can
+dimension except depth is deliberately identical so G-Micro's finished blocks can
 be transplanted into this one (model/warm_start.py).
 
 Architecture is GPT-2 sized but modernised (this is essentially Llama in miniature):
@@ -32,11 +32,11 @@ import torch.nn.functional as F
 
 @dataclass
 class GPTConfig:
-    vocab_size: int = 48000   # MiniG tokenizer: 48k, digits split apart
+    vocab_size: int = 48000   # G-Mini tokenizer: 48k, digits split apart
     block_size: int = 1024    # context length in tokens
-    n_layer: int = 20         # 12 come warm from MicroG, 8 start as identity
-    n_head: int = 12          # head_dim 64, unchanged from MicroG
-    n_embd: int = 768         # MUST equal MicroG's: warm starting depends on it
+    n_layer: int = 20         # 12 come warm from G-Micro, 8 start as identity
+    n_head: int = 12          # head_dim 64, unchanged from G-Micro
+    n_embd: int = 768         # MUST equal G-Micro's: warm starting depends on it
     ffn_hidden: int = 2048    # SwiGLU hidden width (~8/3 * n_embd, rounded)
     rope_theta: float = 10000.0
     dropout: float = 0.0      # 0.0 for pretraining, raise for fine-tuning

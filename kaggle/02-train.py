@@ -1,4 +1,4 @@
-"""Kaggle kernel: pretrain MiniG, resuming across sessions.
+"""Kaggle kernel: pretrain G-Mini, resuming across sessions.
 
 A free session dies after a few hours without warning and the budget here is
 about sixty, so this is written to be run over and over: each run picks up the
@@ -9,16 +9,16 @@ step counter and RNG are all restored together.
 **Attach these datasets before running:**
   - `minig-data` — pl_train.bin / pl_val.bin, built by 01-prep.py
   - `minig-ckpt` — the previous session's checkpoint (absent on the first run)
-  - `microg-ckpt` — MicroG's pretrained weights, only needed for the first run
+  - `microg-ckpt` — G-Micro's pretrained weights, only needed for the first run
 
-Traps this file exists to avoid, every one of them paid for during MicroG:
+Traps this file exists to avoid, every one of them paid for during G-Micro:
 
   Mount depth is not fixed. `/kaggle/input/<slug>/` and
   `/kaggle/input/datasets/<owner>/<slug>/` have both been observed in the same
-  session. A fixed-depth glob silently finds nothing, and MicroG once restarted
+  session. A fixed-depth glob silently finds nothing, and G-Micro once restarted
   from a stale checkpoint because of it — recursive globs everywhere.
 
-  This file and the deployed kernel drift. MicroG kept a copy of its kernel
+  This file and the deployed kernel drift. G-Micro kept a copy of its kernel
   outside the repo and the two diverged silently. Here the kernel *is* this
   file: whatever is in git is what runs.
 
@@ -32,15 +32,15 @@ import os
 import subprocess
 import sys
 
-REPO = "https://github.com/JerzySukiennik/minig.git"
+REPO = "https://github.com/JerzySukiennik/g-mini.git"
 WORK = "/kaggle/working"
 OUT = f"{WORK}/run1"
 
-if os.path.exists(f"{WORK}/minig"):
-    subprocess.run(["git", "-C", f"{WORK}/minig", "pull", "--ff-only"], check=True)
+if os.path.exists(f"{WORK}/g-mini"):
+    subprocess.run(["git", "-C", f"{WORK}/g-mini", "pull", "--ff-only"], check=True)
 else:
-    subprocess.run(["git", "clone", "--depth", "1", REPO, f"{WORK}/minig"], check=True)
-os.chdir(f"{WORK}/minig")
+    subprocess.run(["git", "clone", "--depth", "1", REPO, f"{WORK}/g-mini"], check=True)
+os.chdir(f"{WORK}/g-mini")
 subprocess.run([sys.executable, "-m", "pip", "install", "-q", "tokenizers"], check=True)
 
 
