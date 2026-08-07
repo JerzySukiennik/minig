@@ -44,9 +44,22 @@ corpora = []
 for source, chars in TARGETS.items():
     out = f"{WORK}/corpus_{source}.txt"
     print(f"\n=== {source}: cel {chars/1e9:.1f} mld znaków ===", flush=True)
-    subprocess.run([sys.executable, "data/fetch_corpus.py", source,
-                    "--out", out, "--max-chars", str(chars)], check=True)
+    # fetch_corpus.py already retries within a source (dropped HF connections
+    # are routine on a multi-gigabyte streaming pull). What is caught here is
+    # the case that survives all of those retries — a source that is simply
+    # unreachable this session. Losing one of three corpora is a worse
+    # training run, not a failed kernel: continuing with wiki + fineweb beats
+    # aborting the whole prep and spending the next CPU session re-downloading
+    # both of the sources that had already succeeded.
+    result = subprocess.run([sys.executable, "data/fetch_corpus.py", source,
+                             "--out", out, "--max-chars", str(chars)])
+    if result.returncode != 0:
+        print(f"  {source} nie udało się nawet po retry — pomijam, "
+              f"trening pojedzie na pozostałych źródłach", flush=True)
+        continue
     corpora.append(out)
+
+assert corpora, "żadne źródło się nie pobrało — sprawdź połączenie / HF_TOKEN"
 
 print("\n=== pakowanie tokenów ===", flush=True)
 subprocess.run([sys.executable, "data/pack_data.py", *corpora,

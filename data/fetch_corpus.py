@@ -22,6 +22,7 @@ document boundaries to place <|endoftext|>.
 import argparse
 import os
 import sys
+import time
 from pathlib import Path
 
 from datasets import load_dataset
@@ -50,38 +51,70 @@ def read_token(env_path: Path = Path(".env")) -> str | None:
     return None
 
 
+MAX_RETRIES = 8
+
+
 def main(source: str, out: Path, max_chars: int | None, min_chars: int):
     token = read_token()
     spec = SOURCES[source]
 
-    # streaming=True: iterate shards as they arrive instead of materialising the
-    # whole dataset first. On a slow connection we start writing within seconds,
-    # and we can stop at any point with a usable corpus.
-    ds = load_dataset(spec["path"], spec["name"], split="train",
-                      streaming=True, token=token)
-
     out.parent.mkdir(parents=True, exist_ok=True)
     kept = skipped = chars = 0
+    consumed = 0          # rows pulled from the stream, including skipped ones
 
+    # A streaming IterableDataset has no checkpoint of its own — a dropped
+    # connection mid-shard used to take the whole corpus down with it (a real
+    # run: 1.5GB in, reconnect, IncompleteRead, kernel dead, hours of CPU
+    # wasted). `.skip(consumed)` re-opens the stream and fast-forwards past
+    # rows already written, so a retry resumes roughly where it left off
+    # instead of restarting the source from scratch — and the file is opened
+    # in append mode across retries for the same reason.
     with out.open("w", encoding="utf-8") as f:
-        for row in ds:
-            text = (row.get("text") or "").strip()
-            # Very short documents are overwhelmingly stubs, navigation chrome
-            # and disambiguation pages: high boilerplate, low language signal.
-            if len(text) < min_chars:
-                skipped += 1
-                continue
-            f.write(text)
-            f.write(f"\n{DOC_SEP}\n")
-            kept += 1
-            chars += len(text)
+        pass  # truncate once, then reopen in "a" for every attempt below
 
-            if kept % 20000 == 0:
-                print(f"  {kept:>9,} docs  {chars/1e6:>9.1f}M chars"
-                      f"  (~{chars/3.5/1e6:.0f}M tokens)", flush=True)
-            if max_chars and chars >= max_chars:
-                print("  reached --max-chars, stopping", flush=True)
-                break
+    attempt = 0
+    while True:
+        try:
+            ds = load_dataset(spec["path"], spec["name"], split="train",
+                              streaming=True, token=token)
+            if consumed:
+                ds = ds.skip(consumed)
+
+            with out.open("a", encoding="utf-8") as f:
+                for row in ds:
+                    consumed += 1
+                    text = (row.get("text") or "").strip()
+                    # Very short documents are overwhelmingly stubs, navigation
+                    # chrome and disambiguation pages: high boilerplate, low
+                    # language signal.
+                    if len(text) < min_chars:
+                        skipped += 1
+                        continue
+                    f.write(text)
+                    f.write(f"\n{DOC_SEP}\n")
+                    kept += 1
+                    chars += len(text)
+
+                    if kept % 20000 == 0:
+                        print(f"  {kept:>9,} docs  {chars/1e6:>9.1f}M chars"
+                              f"  (~{chars/3.5/1e6:.0f}M tokens)", flush=True)
+                    if max_chars and chars >= max_chars:
+                        print("  reached --max-chars, stopping", flush=True)
+                        break
+                else:
+                    # Loop ran to exhaustion rather than hitting max_chars or
+                    # break — the source itself is fully consumed.
+                    break
+            break  # max_chars reached, or the inner break above ran
+        except Exception as e:
+            attempt += 1
+            if attempt > MAX_RETRIES:
+                raise
+            wait = min(60, 5 * attempt)
+            print(f"  pobieranie przerwane ({e!r}), próba {attempt}/{MAX_RETRIES} "
+                  f"za {wait}s — {kept:,} dokumentów już zapisanych, nie tracimy ich",
+                  flush=True)
+            time.sleep(wait)
 
     print(f"\ndone -> {out}")
     print(f"  kept {kept:,} docs, skipped {skipped:,} short ones")
