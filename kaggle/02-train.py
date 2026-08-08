@@ -56,7 +56,15 @@ print(f"dane: {data_prefix}")
 
 os.makedirs(OUT, exist_ok=True)
 resume = find("ckpt.pt")
-cmd = [sys.executable, "train/train.py", "--data", data_prefix, "--out", OUT]
+# Stop before Kaggle's own session limit. A run the platform kills ends as
+# CANCEL_ACKNOWLEDGED, and Kaggle refuses a cancelled kernel as a source for
+# another kernel — which breaks the whole resume chain. Measured: session 1 got
+# 12.0 h of training inside a 14.3 h wall clock, so 10.5 leaves room for setup
+# and the final 2 GB checkpoint write.
+SESSION_HOURS = 10.5
+
+cmd = [sys.executable, "train/train.py", "--data", data_prefix, "--out", OUT,
+       "--max-hours", str(SESSION_HOURS)]
 
 if resume:
     # A previous session's checkpoint. Copy it in rather than pointing at the

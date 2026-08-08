@@ -201,6 +201,10 @@ def main():
     ap.add_argument("--eval-iters", type=int, default=50)
     ap.add_argument("--ckpt-every", type=int, default=500)
     ap.add_argument("--log-every", type=int, default=10)
+    ap.add_argument("--max-hours", type=float, default=0.0,
+                    help="zatrzymaj sie i zapisz po tylu godzinach (0 = bez limitu). "
+                         "Na Kaggle ustaw ponizej limitu sesji, zeby run konczyl sie "
+                         "jako COMPLETE i mogl byc zrodlem dla nastepnego kernela.")
     ap.add_argument("--compile", action="store_true")
     ap.add_argument("--single-gpu", action="store_true",
                     help="ignore extra GPUs; use if DataParallel misbehaves")
@@ -292,6 +296,7 @@ def main():
     args.out.mkdir(parents=True, exist_ok=True)
     model.train()
     t0 = time.time()
+    run_started = time.time()
 
     while step < args.max_steps:
         lr = lr_at(step, args.warmup, args.max_steps, args.lr, args.min_lr)
@@ -344,6 +349,18 @@ def main():
 
         if step % args.ckpt_every == 0:
             save_ckpt(ckpt_path, model, opt, step, best_val, cfg, args)
+
+        # Stop before Kaggle does. A session killed at the platform's own limit
+        # ends as CANCEL_ACKNOWLEDGED, and Kaggle refuses a cancelled kernel as
+        # a source for another kernel — which is exactly how the next session
+        # was supposed to pick up this checkpoint without a 2GB round trip
+        # through a home connection. Exiting cleanly is what makes the run
+        # COMPLETE, and only a COMPLETE run can be chained from.
+        if args.max_hours and (time.time() - run_started) > args.max_hours * 3600:
+            save_ckpt(ckpt_path, model, opt, step, best_val, cfg, args)
+            print(f"limit czasu sesji ({args.max_hours} h) — zapisano na kroku {step}",
+                  flush=True)
+            break
 
     save_ckpt(ckpt_path, model, opt, step, best_val, cfg, args)
     print(f"done at step {step}, best val {best_val:.4f}")
